@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('img/pic2.jpg');
+    background-size: cover;
+}
+#counterLabel{
+
+
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+.btnContainer{
+
+text-align: center;
+}
+
+.buttons{
+
+padding: 10px 20px;
+font-size: 1.5rem;
+color: white;
+cursor: pointer;
+border-radius: 5px;
+background-color: hsl(228, 100%, 23%);
+transition: background-color 0.25s;
+
+
+}
+
+.buttons:hover{
+background-color: hsl(227, 100%, 5%);
+
+}
+
